@@ -1,0 +1,88 @@
+@import url('https://fonts.googleapis.com/css?family=Press+Start+2P');
+
+.wrapper {
+ zoom:0.9
+   
+   
+    
+}
+
+td{
+
+  height:20px;
+  width:20px;
+
+      
+}
+
+table{
+
+display: table;
+
+  background:black;
+    table-layout: fixed;
+    width: 80%;
+    border-spacing: 0px;
+ 
+    -webkit-user-select: none;
+    -moz-user-select: none;
+    -ms-user-select: none;
+    user-select: none;
+  
+}
+table:focus{
+  outline:none
+}
+td:focus{
+  outline:none
+}
+
+table.fixed {table-layout:fixed; width:20px;}/*Setting the table width is important!*/
+table.fixed td {overflow:hidden;}/
+
+.wrapper{
+
+}
+
+body{
+  background:black
+}
+
+h1{
+  color:#32d782;
+  font-family:'Press Start 2P', cursive;
+  text-shadow:0 0 10px #32d782;
+  text-align:center;
+}
+
+h4{
+  color:white;
+  font-family:verdana;
+  text-align:center;
+}
+
+
+#info{
+     text-align:center;
+    color: white;
+}
+
+span{
+  margin-top:10px;
+  font-size:20px
+}
+
+h4{
+color:green;
+}
+
+@media screen and (max-width: 800px) {
+  html{
+    zoom:0.5
+  }
+  
+}
+
+#gameArea{
+    
+}
